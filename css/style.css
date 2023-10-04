@@ -1,0 +1,74 @@
+body {
+    margin: 0%;
+}
+/* CSS Header */
+header {
+    background-color: grey;
+    padding: 15px 200px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px ;
+
+}
+/* CSS Main */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+    
+}
+
+article {
+    border: 1px solid black;
+    box-shadow: 2px 3px 3px black;
+    height: 600px;
+    width: 500px;
+    margin: 10px;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    
+}
+
+.font-style {
+    margin: 30px 10px ;
+    font-size: 20px;
+}
+
+/* CSS Boutons */
+.btn-placement {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn {
+    border: 1px solid ;
+    font-size: 20px;
+    color: white;
+    width: 175px;
+    height: 50px;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 50px;
+}
+
+.btn-1 {
+    background-color: purple;
+    
+}
+
+.btn-2 {
+    background-color: rgba(190, 116, 4, 0.815);
+}
+
+.btn-3 {
+    background-color: rgb(46, 127, 141);
+}
+
+
+
